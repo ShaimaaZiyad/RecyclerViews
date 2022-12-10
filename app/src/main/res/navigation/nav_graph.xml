@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.shaimaziyad.recyclerviews.Home"
+        android:label="home"
+        tools:layout="@layout/home" >
+        <action
+            android:id="@+id/action_home_to_usersRecyclerview"
+            app:destination="@id/usersRecyclerview" />
+        <action
+            android:id="@+id/action_home_to_storiesRecyclerview"
+            app:destination="@id/storiesRecyclerview" />
+        <action
+            android:id="@+id/action_home_to_expandableRecyclerView"
+            app:destination="@id/expandableRecyclerView" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersRecyclerview"
+        android:name="com.shaimaziyad.recyclerviews.usersRecyclerview.UsersRecyclerview"
+        android:label="users_recyclerview"
+        tools:layout="@layout/users_recyclerview" />
+    <fragment
+        android:id="@+id/storiesRecyclerview"
+        android:name="com.shaimaziyad.recyclerviews.storiesRecyclerview.StoriesRecyclerview"
+        android:label="stories_recyclerview"
+        tools:layout="@layout/stories_recyclerview" />
+    <fragment
+        android:id="@+id/expandableRecyclerView"
+        android:name="com.shaimaziyad.recyclerviews.expandableRecyclerView.ExpandableRecyclerView"
+        android:label="expandable_recycler_view"
+        tools:layout="@layout/expandable_recycler_view" />
+</navigation>

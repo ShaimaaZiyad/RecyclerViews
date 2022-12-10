@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/usersRecyclerviewFragmentBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:text="@string/show_users"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/storiesRecyclerviewFragmentBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:text="@string/show_stories"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/expandableRecyclerviewFragmentBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:text="@string/show_expandable_recyclerview"
+            android:textSize="20sp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</FrameLayout>

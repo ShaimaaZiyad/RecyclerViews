@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Recyclerviews</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_users">SHOW USERS</string>
+    <string name="show_stories">SHOW STORIES</string>
+    <string name="show_expandable_recyclerview">SHOW EXPANDABLE RECYCLERVIEW</string>
+    <string name="title">Title</string>
+    <string name="sub_item">Sub Item</string>
+    <string name="user_name">User Name</string>
+    <string name="user_id">User Id</string>
+    <string name="list_image">list Image</string>
+    <string name="story_image">story Image</string>
+</resources>
